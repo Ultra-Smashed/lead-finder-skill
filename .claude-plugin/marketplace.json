@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "lead-finder",
+  "description": "Gib deine Website ein, bekomm eine Leadliste mit Zitaten, E-Mails und fertigen Nachrichten.",
+  "owner": {
+    "name": "Christopher Thanisch",
+    "url": "https://thanisch.co"
+  },
+  "plugins": [
+    {
+      "name": "lead-finder",
+      "description": "Findet Kunden in sozialen Medien und schreibt sie an: Scraper, Profil-Builder, E-Mail-Finder und Sender in einem Skill.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
